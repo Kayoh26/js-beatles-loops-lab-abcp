@@ -27,6 +27,6 @@ function iLoveTheBeatles(number){
     newArr.push('I love the Beatles!');
     //increase number
     number++;
-  }while(number<15); // checks to see if less than 15
+  }while(number<15); //check if less than 15
   return newArr;
 }
