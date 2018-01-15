@@ -9,5 +9,9 @@ function theBeatlesPlay(arrayM,arrayI){
 }
 
 function johnLennonFacts(arrayF){
-  
+  var newArryf = [];
+  for (let i=0; i<arrayF.length; i++){
+    newArryf.push(arrayF[i]+'!!!');
+  }
+  return newArryf;
 }
